@@ -6,5 +6,12 @@
     "grunt-contrib-jshint": "~0.6.3",
     "grunt-contrib-nodeunit": "~0.2.0",
     "grunt-contrib-uglify": "~0.3.2"
-  }
+  },
+  "jspm": {
+    "main": "jquery.tokeninput",
+    "files": ["src/jquery.tokeninput.js"],
+    "buildConfig": {
+      "uglify": true
+    }
+  },
 }
